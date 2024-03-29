@@ -1,0 +1,145 @@
+#container{
+    background-image: url(images_html/main.jpg);
+    height: 700px;
+}
+#nav{
+    display: flex;
+    border-radius: 30px;
+    border: solid 1px;
+    border-color: white;
+    justify-content: space-around;
+}
+#but-home{
+    background-color: orange;
+    color: white;
+    border-radius: 25px;
+    width: 15%;
+}
+#heading{
+    font-size: 50px;
+    color: white;
+}
+#par{
+    color: white;
+
+}
+#but-book{
+    background-color: rgb(230, 161, 34);
+    color: white;
+    border-radius: 25px;
+    padding: 15px;
+    width: 25%;
+
+}
+#travel-places{
+    display: flex;
+    justify-content:space-around;
+
+}
+.image-places{
+    width: 300px;
+    border-radius: 20px;
+
+}
+.star{
+    width: 40px;
+    height: 35px;
+}
+.price{
+    display: flex;
+    gap: 10%;
+}
+.rating{
+    margin-right: 150px;
+}
+#arrow{
+    width: 80px;
+    display: flex;
+}
+#features{
+    display: flex;
+}
+#top-destination{
+    display: flex;
+    padding: 20px;
+    border-radius: 20px;
+    justify-content: space-evenly;
+}
+#topdest-pic{
+    display: flex;
+    width: 400px;
+    border-radius: 30px;
+}
+#reviews{
+    display: flex;
+}
+#questions{
+    background-color: orange;
+    display: flex;
+    border: solid 1px;
+    border-radius: 5px;
+    width: 60%;
+    justify-content: space-around;
+
+}
+#form{
+    border: solid 1px;
+    width: 30%;
+    border-radius: 5px;
+}
+#choice{
+        background-image: url(images_html/choice.jpeg);
+        height: 500px;
+        width: 1200%;
+        background-repeat: no-repeat;
+}
+#choice-button{
+    display: flex;
+}
+#footer{
+    display: flex;
+    gap: 10%;
+}
+.line{
+    width: 40px;
+}
+#blog{
+    display: flex;
+}
+
+
+
+
+@media only screen and(min-width: 390px)and (max-width: 540px){
+    #nav{
+        display: flex;
+        border-radius: 30px;
+        border: solid 1px;
+        border-color: white;
+        justify-content: space-around;
+    }
+    #but-home{
+        background-color: orange;
+        color: white;
+        border-radius: 25px;
+        width: 35%;
+    }
+    #heading{
+        font-size: 50px;
+        color: white;
+    }
+
+    #travel-places{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:space-around;
+    
+    }
+    .image-places{
+        width: 2px;
+        border-radius: 20px;
+    
+    }
+
+
+}
