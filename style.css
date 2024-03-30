@@ -1,6 +1,13 @@
+body{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
 #container{
     background-image: url(images_html/main.jpg);
     height: 700px;
+    /* width: 1000px; */
+    background-repeat: no-repeat;
 }
 #nav{
     display: flex;
@@ -23,7 +30,7 @@
     color: white;
 
 }
-#but-book{
+.but-book{
     background-color: rgb(230, 161, 34);
     color: white;
     border-radius: 25px;
@@ -33,7 +40,7 @@
 }
 #travel-places{
     display: flex;
-    justify-content:space-around;
+    gap: 10%;
 
 }
 .image-places{
@@ -42,7 +49,7 @@
 
 }
 .star{
-    width: 40px;
+    width: 30px;
     height: 35px;
 }
 .price{
@@ -55,56 +62,141 @@
 #arrow{
     width: 80px;
     display: flex;
+    margin-left: 50%;
+    margin-bottom: 5%;
 }
 #features{
     display: flex;
+    /* gap: 5%; */
+    /* justify-content: space-evenly; */
+
 }
 #top-destination{
     display: flex;
-    padding: 20px;
-    border-radius: 20px;
-    justify-content: space-evenly;
+    padding: 30px;
+    border-radius: 40px;
+    /* justify-content: space-evenly; */
+    gap: 50px;
+}
+.destination-button{
+    padding: 10px;
+    border-radius: 25px;
+    width: 6%;
+
 }
 #topdest-pic{
     display: flex;
     width: 400px;
     border-radius: 30px;
+    gap: 10%;
+    margin-left: 10%;
+}
+.florence-venice{
+    border-radius: 20px;
+    width: 300px;
+}
+#porto-pic{
+    height: 550px;
+    border-radius: 20px;
+    width: 450px;
+}
+.milan-rome{
+    border-radius: 20px;
+    width: 300px;
+    height: 250px;
+}
+#review-arrows{
+    display: flex;
+    gap: 60%;
+    margin-top: 5%;
 }
 #reviews{
     display: flex;
+    gap: 12%;
+    margin-top: 5%;
+}
+#blog{
+    display: flex;
+    margin-top: 5%;
+    gap: 10%;
+}
+.par-blog{
+    margin-left: 30%;
+}
+#blog-pic{
+    width: 600px;
+    position: relative;
+}
+#text-blog{
+    position: absolute;
+    top: 329%;
+    color: white;
 }
 #questions{
     background-color: orange;
     display: flex;
-    border: solid 1px;
     border-radius: 5px;
-    width: 60%;
+    width: 85%;
     justify-content: space-around;
+    margin-top: 5%;
 
 }
 #form{
     border: solid 1px;
     width: 30%;
     border-radius: 5px;
+    background-color: white;
+}
+#submit-button{
+    padding: 10px;
+    border-radius: 20px;
+    width: 60%;
+    background-color: orange;
+    margin-left: 3%;
 }
 #choice{
         background-image: url(images_html/choice.jpeg);
+        background-size: cover;
         height: 500px;
-        width: 1200%;
+        /* width: 1200%; */
         background-repeat: no-repeat;
+        margin-top: 10%;
+}
+#par-choice{
+    color: white;
+    font-size: 50px;
+}
+#signup-but{
+    border-radius: 20px;
+    padding: 10px;
+    width: 10%;
+}
+#login-but{
+    border-radius: 20px;
+    padding: 10px;
+    width: 10%;
+    background-color: orange;
+    color: white;
 }
 #choice-button{
     display: flex;
+    gap: 1%;
+}
+#par-subscribe{
+    margin-left: 45%;
+}
+#email{
+    padding: 20px;
+    width: 25%;
+    border-radius: 30px;
+    margin-left: 40%;
 }
 #footer{
     display: flex;
-    gap: 10%;
+    gap: 20%;
 }
 .line{
-    width: 40px;
-}
-#blog{
-    display: flex;
+    width: 60;
 }
 
 

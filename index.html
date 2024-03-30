@@ -13,7 +13,7 @@
             <button id="but-home">Home</button>
             <p>About Us</p>
             <p>Services</p>
-            <img src="" alt="">
+            <img src="images_html/travelworld.png" alt="" height="40px">
             <p>Destinatons</p>        
             <p>Blog</p>
             <p>Contact Us</p>
@@ -22,7 +22,7 @@
         <h2 id="heading">Experience Life Through <br>Travel & Enjoyment</h2>
         <p id="par">Discover Your Next Great Adventure, Become An Explorer <br>To Get Started!</p>
         <br>
-        <button id="but-book">Book A trip Now</button>
+        <button class="but-book">Book A trip Now</button>
     </div>
 
     <div>
@@ -57,29 +57,29 @@
 
     <div>
         <div id="arrow">
-            <img src="images_html/left arrow.png" alt="">
-            <img src="images_html/right arrow.jpg" alt="" width="80px">
+            <img src="images_html/left arrow.png" alt="" width="80px" height="50px">
+            <img src="images_html/right arrow.jpg" alt="" width="80px" height="50px">
         </div>
         <h2>Unique Features For Unique Adventures</h2>
         <div id="features">
         <div>
-            <img src="images_html/settings.png" alt="">
+            <img src="images_html/settings.png" alt="" width="150px">
             <h3>Optimize Your Route</h3>
             <p>For road trips and saving money on gas! <br>Get the best route auto-rearranged.</p>
         </div>
         <div>
-            <img src="images_html/dotup.jpeg" alt="">
+            <img src="images_html/dotup.jpeg" alt="" width="150px">
         </div>
         <div>
-            <img src="images_html/bulb.jpeg" alt="">
+            <img src="images_html/bulb.jpeg" alt="" width="80px">
             <h3>Get Personalized Tips</h3>
             <p>Get Personalized travel recommendations for <br>your itinerary.</p>
         </div>
         <div>
-            <img src="images_html/dotdown.png" alt="">
+            <img src="images_html/dotdown.png" alt="" width="150px">
         </div>
         <div>
-            <img src="images_html/globe.jpeg" alt="">
+            <img src="images_html/globe.jpeg" alt="" width="50px">
             <h3>Offline Access</h3>
             <p>No wifi, no problem. Your trip plans are <br>locally downloaded for access anywhere.</p>
         </div>
@@ -89,56 +89,60 @@
     <div>
         <h2>Top Destination</h2>
         <div id="top-destination">
-            <button>Scotiland</button>
-            <button>Italy</button>
-            <button>England</button>
-            <button>Bangkok</button>
-            <button>France</button>
-            <button>Nederland</button>
+            <button class="destination-button">Scotiland</button>
+            <button class="destination-button">Italy</button>
+            <button class="destination-button">England</button>
+            <button class="destination-button">Bangkok</button>
+            <button class="destination-button">France</button>
+            <button class="destination-button">Nederland</button>
         </div>
     </div>
 
 
     <div id="topdest-pic">
         <div>
-            <img src="images_html/florence.jpeg" alt="">
+            <img src="images_html/florence.jpeg" alt="" class="florence-venice">
             <p>Florence, Italy</p>
-            <img src="images_html/venice.jpeg" alt="">
+            <img src="images_html/venice.jpeg" alt="" class="florence-venice">
             <p>Venice, Italy</p>
         </div>
         <div>
-            <img src="images_html/portocervo.jpeg" alt="">
+            <img src="images_html/portocervo.jpeg" alt="" id="porto-pic">
             <p>Porto Cervo, Italy</p>
         </div>
         <div>
-            <img src="images_html/milan.jpeg" alt="">
+            <img src="images_html/milan.jpeg" alt="" class="milan-rome">
             <p>Milan, Italy</p>
-            <img src="images_html/rome.jpeg" alt="">
+            <img src="images_html/rome.jpeg" alt="" class="milan-rome">
             <p>Rome, Italy</p>
         </div>
     </div>
 
     <div>
+        <div id="review-arrows">
         <h2>Our Clients Reviews</h2>
-        <img src="images_html/left arrow.png" alt="">
+        <div>
+        <img src="images_html/left arrow.png" alt="" width="80px">
         <img src="images_html/right arrow2or.jpeg" alt="">
+        </div>
+        </div>
         <div id="reviews">
         <div>
-            <img src="images_html/fivestar.png" alt="">
+            <img src="images_html/fivestar.png" alt="" width="120px">
             <p>It is a long established fact that a reader be <br>distracted by the readable content of page <br>when looking at its layout. The point using <br>Lorem Ipsum is that has.</p>
             <img src="" alt="">
             <p>Keya Akter</p>
             <p>Los Angeles, CA</p>
         </div>
         <div>
-            <img src="images_html/fivestar.png" alt="">
+            <img src="images_html/fivestar.png" alt="" width="120px">
             <p>It is a long established fact that a reader be <br>distracted by the readable content of page <br>when looking at its layout. The point using <br>Lorem Ipsum is that has.</p>
             <img src="" alt="">
             <p>Yasin Arafat</p>
             <p>New York City</p>
         </div>
         <div>
-            <img src="images_html/fivestar.png" alt="">
+            <img src="images_html/fivestar.png" alt="" width="120px">
             <p>It is a long established fact that a reader be <br>distracted by the readable content of page <br>when looking at its layout. The point using <br>Lorem Ipsum is that has.</p>
             <img src="" alt="">
             <p>Abid Reza</p>
@@ -147,13 +151,18 @@
         </div>
     </div>
 
-        <div id="Blog">
-            <h2>Our Blog</h2>
-            <p>It is a long established fact that page when will be distracted by the readable content of <br>a page when looking at its layout.</p>
-            <img src="images_html/florence.jpeg" alt="">
+        <div>
+            <h2 class="par-blog">Our Blog</h2>
+            <p class="par-blog">It is a long established fact that page when will be distracted by the readable content of <br>a page when looking at its layout.</p>
+            <div id="blog">
+            <div>
+            <img src="images_html/florence.jpeg" alt="" id="blog-pic">
+            <div id="text-blog">
             <p>February 6, 2024</p>
             <h3>Exploring Florence: Tuscany's Timeless Beauty</h3>
             <p>It is a long established fact that page when will be distracted by the readable content of <br>a page when looking at its layout. The point of using Lorem Ipsum.</p>
+            </div>
+            </div>
             <div>
                 <p>March 01,2024</p>
                 <h3>Italy Travel Pricing Details</h3>
@@ -169,6 +178,7 @@
                 <h3>Italy Travel Pricing Details.</h3>
                 <p>It is a long  established fact that a reader will be distracted by the <br>readable content of a page when looking at its layout...  </p>
                 <hr class="line">
+            </div>
             </div>
         </div>
 
@@ -186,19 +196,19 @@
                 <hr class="line">
                 <label for="Message">Message</label>
                 <hr>
-                <button>SUBMIT</button>
+                <button id="submit-button">SUBMIT</button>
             </div>
         </div>
 
         <div id="choice">
-            <h2>Choose Your Adventure, Make <br>I Happen.</h2>
+            <h2 id="par-choice">Choose Your Adventure, Make <br>I Happen.</h2>
             <div id="choice-button">
-            <button>Sign Up</button>
-            <button>Login</button>
+            <button id="signup-but">Sign Up</button>
+            <button id="login-but">Login</button>
             </div>
         </div>
-        <h2>Subscribe To Join Us</h2>
-        <input type="email" placeholder="Type Email">
+        <h2 id="par-subscribe">Subscribe To Join Us</h2>
+        <input type="email" placeholder="Type Email" id="email">
 
         <div id="footer">
         <div>
